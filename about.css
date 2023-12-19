@@ -54,3 +54,19 @@ h3 {
   background-color: var(--main-branding-color);
   color: var(--secondary-color);
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 45px;
+    line-height: 1.5;
+  }
+
+  p {
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .contact {
+    margin-top: 30px;
+  }
+}
