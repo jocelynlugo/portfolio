@@ -1,0 +1,36 @@
+:root {
+  --main-branding-color: #e6a4b4;
+  --secondary-color: #f5eee6;
+}
+
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 17px;
+  color: var(--main-branding-color);
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+.email,
+.linkedIn {
+  text-decoration: none;
+  color: var(--main-branding-color);
+}
