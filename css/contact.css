@@ -23,14 +23,22 @@ h2 {
 p {
   font-size: 17px;
   color: var(--main-branding-color);
-}
-
-p:hover {
-  text-decoration: underline;
+  background: var(--secondary-color);
+  padding: 20px;
+  margin: 40px 120px;
+  border-radius: 30px;
 }
 
 .email,
 .linkedIn {
   text-decoration: none;
   color: var(--main-branding-color);
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+
+.linkedIn:hover {
+  text-decoration: underline;
 }

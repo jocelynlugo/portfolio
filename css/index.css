@@ -80,3 +80,49 @@ h2 {
 .recipe {
   margin-bottom: 30px;
 }
+
+footer {
+  margin: 60px 0;
+}
+
+footer .inquiry {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 15px;
+}
+
+footer h4 {
+  font-size: 40px;
+}
+
+footer p {
+  font-size: 20px;
+  margin: 0;
+}
+
+footer .email-link {
+  margin-top: 30px;
+  text-decoration: none;
+  color: var(--main-branding-color);
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--main-branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--main-branding-color);
+}
