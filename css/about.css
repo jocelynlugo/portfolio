@@ -30,6 +30,23 @@ h3 {
   font-size: 40px;
   margin: 0;
 }
+a.dropbox,
+a.dropbox:link,
+a.dropbox:visited {
+  color: var(--secondary-color);
+  text-decoration: none !important;
+}
+
+.resume {
+  display: block;
+  margin: auto;
+  padding: 20px 50px;
+  width: 200px;
+  border: 1px solid var(--main-branding-color);
+  border-radius: 15px;
+  background-color: var(--main-branding-color);
+  color: var(--secondary-color);
+}
 
 .email {
   display: flex;
